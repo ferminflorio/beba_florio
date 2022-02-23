@@ -12,14 +12,20 @@ main {
 li {
 	list-style-type: none;
 }
+.main_nav_list_item:hover a {
+	transform: translateX(5px);
+}
 a {
 	color: rgb(223, 25, 25);
 	font-size: 30px;
 	text-decoration: none;
+	display: inline-block;
+	transition: transform 0.2s ease-out;
 }
 a:hover {
 	color: rgb(194, 151, 207);
 }
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -73,6 +79,7 @@ textarea {
 .encabezado {
 	text-transform: uppercase;
 }
+
 .video_title {
 	text-align: center;
 	font-weight: 100;
@@ -87,7 +94,7 @@ textarea {
 	transition: transform 0.2s ease-out;
 }
 .videoclip:hover {
-	transform: scale(0.9) translateY(20px);
+	transform: scale(0.9) translateX(20px);
 }
 
 .video1 {
