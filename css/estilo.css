@@ -84,6 +84,10 @@ textarea {
 .videoclip {
 	width: 100%;
 	min-height: 400px;
+	transition: transform 0.2s ease-out;
+}
+.videoclip:hover {
+	transform: scale(0.9) translateY(20px);
 }
 
 .video1 {
